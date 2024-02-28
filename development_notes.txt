@@ -1,0 +1,42 @@
+# Development Notes
+
+## Date: [28/02/2024]
+
+### Learnings:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Python Virtual Environment:
+
+A Python virtual environment is a self-contained directory that encapsulates the Python interpreter along with the standard library and any additional packages specific to your project. 
+This isolation allows you to manage dependencies for your project independently of the global Python environment.
+
+Benefits:
+
+1. **Dependency Isolation:** Ensures that your project uses the specific versions of libraries and dependencies it requires, avoiding conflicts with the system-wide Python installation.
+
+2. **Portability:** Facilitates sharing your project by providing a consistent environment. Other developers can recreate the same environment using the `requirements.txt` file.
+
+3. **Clean Development:** Keeps your development environment clean by avoiding clutter from unrelated packages and dependencies.
+
+To use a virtual environment:
+
+1. Create a virtual environment in your project directory.
+2. Activate the virtual environment.
+3. Install project dependencies using a `requirements.txt` file.
+4. Deactivate the virtual environment when done.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Challenges Overcome:
+
+- [Description of a specific challenge]
+- [How it was resolved]
+
+### Future Ideas:
+
+- [Possible code improvements]
+- [Resources or technologies to explore]
+
+### Useful Links:
+
+- [Link to relevant documentation]
+- [Recommended online resources]
