@@ -1,7 +1,7 @@
 ﻿[MAIN]
 
-# Enable the docparams extension
-load-plugins=pylint.extensions.docparams
+
+
 
 disable=
       E0015, # unrecognized-option
