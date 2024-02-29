@@ -6,4 +6,5 @@ def m_funcition():
     y = 7
     z = 7
     r = 10
+    b= 7
     print('heloo')
