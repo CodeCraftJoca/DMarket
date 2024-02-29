@@ -13,4 +13,16 @@ repos:
             "--rcfile=.pylintrc",  # link to your config file
             "--load-plugins=pylint.extensions.docparams",  # load an extension
           ]
+      - id: requirements-txt-fixer
+        name: requirements-txt-fixer
+        entry: venv/scripts/pip3  # Adicione esta linha com o caminho correto para o comando
+        language: system
+        types: [python]
+        args:
+          [
+            "freeze",
+            ">", 
+            "requirements.txt"
+          ]
+    
 # OK
