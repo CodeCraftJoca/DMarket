@@ -5,4 +5,5 @@ def m_funcition():
     x = 23
     y = 7
     z = 7
+    r = 10
     print('heloo')
