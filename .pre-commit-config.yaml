@@ -15,14 +15,13 @@ repos:
           ]
       - id: requirements-txt-fixer
         name: requirements-txt-fixer
-        entry: venv/scripts/pip3  # Adicione esta linha com o caminho correto para o comando
+        entry: venv/scripts/pip.exe 
         language: system
         types: [python]
+        pass_filenames: false  
         args:
           [
             "freeze",
             ">", 
             "requirements.txt"
           ]
-    
-# OK
